@@ -1,0 +1,40 @@
+#menu {
+  width:700;
+  padding:0;
+  margin:0;
+  list-style-type: none;
+}
+#menu li {
+  width:20%;
+  float:left;
+  padding:0;
+  margin:0;
+  text-align:center;
+}
+#menu li a {
+  width:auto;
+  color:#ebf6f7;
+  font-size:12px;
+  font-family: Century Gothic;
+  padding:10px 0;
+  text-decoration:none;
+  display:block;
+  background:#5b6356;
+  border-left:1px solid #444;
+  box-shadow: 1px 0px 0px rgba(225,225,225,0.3) inset,
+    -1px 0px 0px rgba(225,225,225,0.3) inset,
+    0px 1px 1px rgba(0,0,0,0.1) inset,
+    0px -1px 1px rgba(0,0,0,0.3) inset,
+    0px 1px 3px #666;
+}
+#menu li a:hover {
+  background:#555;
+}
+
+p.menu-image {
+  padding: 0;
+  margin: 0;
+}
+p.menu-image img {
+  width: 700;
+}
